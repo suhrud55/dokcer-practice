@@ -1,0 +1,24 @@
+FROM nginx
+WORKDIR /app
+COPY . /app
+ADD   https://github.com/torvalds/linux/archive/refs/tags/v5.14.tar.gz /app/
+CMD  ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
+RUN apt update -y && apt install apache2 -y
+~
+~                                                                                                                                                                      
+~                                                                                                                                                                      
+~                                                                                                                                                                      
+~                                                                                                                                                                      
+~                                                                                                                                                                      
+~                                                                                                                                                                      
+~                                                                                                                                                                      
+~                                                                                                                                                                      
+~                                                                                                                                                                      
+~                                                                                                                                                                      
+~                                                                                                                                                                      
+~                                                                                                                                                                      
+~                                                                                                                                                                      
+~                                                                                                                                                                      
+~                                                                                                                                                                      
+~                                                                                                                                                                      
+~                           
